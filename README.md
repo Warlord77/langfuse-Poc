@@ -136,6 +136,3 @@ include the Playground (it's the Cloud free tier that omits it).
 - **Short scripts must flush:** the SDK buffers in the background; every stage
   calls `langfuse.flush()` so traces aren't lost on exit.
 - **Shutdown Langfuse:** `Ctrl+C`, or `docker compose down` (add `-v` to wipe data).
-# langfuse-Poc
-# langfuse-Poc
-# langfuse-Poc
