@@ -1,0 +1,8 @@
+# Requires Python 3.11+ for langfuse v4.
+# If you're stuck on macOS system Python 3.9, either:
+#   (a) install a newer Python:  brew install python@3.11   (recommended), or
+#   (b) use the v3 line instead:  langfuse>=3.15,<4  (same API, runs unchanged)
+langfuse
+urllib3          # avoids the LibreSSL NotOpenSSLWarning on macOS
+python-dotenv
+# openai>=1.0.0    # uncomment only if you set OPENAI_API_KEY to use a real model

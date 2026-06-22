@@ -1,0 +1,27 @@
+# Secrets — never commit real keys
+.env
+.env.local
+.env.*.local
+
+# Keep the template
+!.env.example
+
+# Python
+__pycache__/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tooling / OS
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+*.log
